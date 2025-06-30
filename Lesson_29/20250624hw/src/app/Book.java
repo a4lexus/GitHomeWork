@@ -1,10 +1,10 @@
 package app;
 
 public class Book {
-     private String title; // название книги
-     private String author; // автор книги
-     private String genre; // жанр книги
-     private int yearOfPublished; // год издания
+    private String title;
+    private String author;
+    private String genre;
+    private int yearOfPublished;
 
     public Book(String title, String author, String genre, int yearOfPublished) {
         this.title = title;
@@ -30,8 +30,8 @@ public class Book {
     }
 
     public String toString() {
-        return "Название книги: "+ title + System.lineSeparator() + "Автор: " + author + "Жанр: "
-                + genre + "Год издания: "+ yearOfPublished;
-
+        return title + " (" + genre + ") " + System.lineSeparator() +
+                "Автор: " + author + System.lineSeparator() +
+                "Год выпуска: " + yearOfPublished;
     }
 }

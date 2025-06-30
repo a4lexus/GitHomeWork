@@ -13,8 +13,6 @@ public class Shop {
         product.add(new Product("Колбаса", 2.99));
         product.add(new Product("Рис", 0.99));
         print(product);
-
-
     }
 
     public static List<Product> print(List<Product> product) {

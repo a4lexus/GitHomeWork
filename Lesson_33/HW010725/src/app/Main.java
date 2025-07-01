@@ -1,8 +1,14 @@
 package app;
 
 import java.util.ArrayList;
-
-
+/*
+HW_33_Text
+1. Создайте класс Book (название, автор). Создайте ArrayList<Book>.
+Добавьте туда несколько объектов.
+Напишите метод `ArrayList<Book> getBook (ArrayList<Book> list, String author)`
+который возвращает список книг, заданного автора.
+Распечатайте его из мейна.
+*/
 
 public class Main {
     public static void main(String[] args) {
